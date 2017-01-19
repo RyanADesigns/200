@@ -1,0 +1,60 @@
+for (var x = 0; x <= 17; x = x + 2) {
+  console.log(2 * x + 7);
+}
+
+lc	x-in	out
+1	0	7
+2	2	11
+3	4	15 = end of loop
+4	6	--19--
+nevermind loop continues due to X not being <= 17
+5       8	23
+6	10	27
+7	12	31
+8	14	35
+9	16	39 ---end of loop
+10
+
+Tried to change loop so that it stopped when the output was >17
+var out = 2 * x + 7; 
+for (var x = 0; out <= 17; x = x + 2) {
+  console.log(out);
+
+
+
+var alpha = 'mpeuorwr';                // 8 (7 if accounting for substring) //
+var s1 = '';
+var s2 = '';
+
+for (var index = 0; index < alpha.length; index++) {
+  if (4 % 2 == 0) {
+    s1 = s1 + alpha.substr(index, 1);
+  } else {
+    s2 = s2 + alpha.substr(index, 1);
+  }
+}
+
+console.log(s1 + s2);
+
+lc	index	vs1	vs2	output
+1	0 	"m"	0		"m"
+2	1	0	"m"		"m"
+3	2	"mp"	0		"mp"	
+4	3	0	"mpe"		"mpe"
+5	4	"mpeu"	0		"mpeu"
+6	5	0	"mpeuo"		"mpeuo"	
+7	6	"mpeuor"0		"mpeuor"
+8	7	0	"mpeuorw"	"mpeuorw"
+9	8	"mpeuorwr"0		"mpeuorwr"	
+10	
+
+
+"m"
+"mp"
+"mep"
+"mepu"
+"meopu"
+"meopur"
+"meowpur"
+"meowpurr"
+
