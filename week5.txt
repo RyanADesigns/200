@@ -1,0 +1,20 @@
+for(var i=0; i < 10; i++) {
+	console.log(i) 
+}
+print woof! to the console 4x
+for(var 1=0; i<3; i++) {
+	console.log("woof")
+}
+
+loop runs 6x prints Woah
+		    Dude
+
+for(i=0;
+
+object for = use var key
+objects use "key value pairs"
+
+for Array use I or Index 
+Arrays index values arr[0],arr[2],arr[4]
+
+Research form handling functions for FORM EMAIL CAPABILITY

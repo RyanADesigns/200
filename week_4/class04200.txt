@@ -1,0 +1,42 @@
+Json =  dot notation
+structure of json object
+name (object) = {
+
+	"keyname": value, 
+	...
+	...
+	...
+
+json object declared in html script tag 
+call key
+
+pseudo code for critters creator
+
+object with blank values 
+
+alert user the rules of the game
+
+prompt user for "name" value
+
+prompt user for # of legs value
+	- check values are integers
+	- check check integers > 0 && integers > 100
+prompt user if critter is houseBroken
+	- if prompt is "yes", set to true.
+	- if prompt id "no", set to false. 
+	- if else ask again
+	- check input is good, set to object.housebroken value
+
+loop through object input each value to console
+alert user of creature thAT  HAS BEEN CREATED
+
+var creature = {
+	"name": "",
+	"legs": "",
+	"housebroken": "" 
+};
+alert("Answer the following questions to create your critter!")
+
+var name = prompt("what is your critters name?");
+if (name = "", "jimmy");
+critter.name = name; 
